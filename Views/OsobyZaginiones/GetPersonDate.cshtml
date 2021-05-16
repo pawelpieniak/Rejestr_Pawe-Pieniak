@@ -1,0 +1,12 @@
+﻿@using Rejestr_PawełPieniak.Models
+@model IEnumerable<OsobyZaginione>
+
+@foreach (OsobyZaginione p in Model)
+{
+<tr>
+    <td>@p.Name</td>
+    <td>@p.LastName</td>
+    <td>@p.Gender</td>
+</tr>
+}
+
